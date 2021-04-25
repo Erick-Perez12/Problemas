@@ -14,11 +14,11 @@ int main()
         for (b=a+1; b<=suma/2; b++)
         {
             int c=suma-a-b;
-            if ( a*a + b*b == c*c )
-               printf("a=%d, b=%d, c=%d\n",a,b,c);
-               m=a*b*c;
+            if ( a*a + b*b == c*c ){
+            	cout<<"la respuesta es: "<<a*b*c;
+			}
+
         }
     }
-    cout<<"= "<<m;
     return 0;
-}
+}//31875000
